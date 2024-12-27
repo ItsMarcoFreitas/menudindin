@@ -40,9 +40,9 @@ JavaScript: Controle de interação com o carrinho, validações de dados e inte
 💡 Como Usar
 Clone este repositório:
 
-bash
+
 Copiar código
-git clone https://github.com/seu-usuario/dindin-gourmet-sensacao.git  
+git clone https://github.com/ItsMarcoFreitas/menudindin
 Abra o arquivo index.html em qualquer navegador.
 
 Explore o menu, adicione produtos ao carrinho, e finalize seu pedido!
