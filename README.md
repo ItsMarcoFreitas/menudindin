@@ -42,7 +42,9 @@ Clone este repositório:
 
 
 Copiar código
+
 git clone https://github.com/ItsMarcoFreitas/menudindin
+
 Abra o arquivo index.html em qualquer navegador.
 
 Explore o menu, adicione produtos ao carrinho, e finalize seu pedido!
