@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- META TAG OG-->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="DinDin Gourmet Sensação" />
+    <meta
+      property="og:image"
+      content="https://dindingourmetsensacao.vercel.app/assets/logo.png"
+    />
+    <meta property="og:description" content="O melhor dindin de cabedelo" />
+    <meta property="og:site_name" content="DinDin Gourmet Sensação" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="styles/output.css" />
+
+    <title>DinDin Gourmet Sensação</title>
+  </head>
+  <body>
+    <!-- COMEÇO DO HEADER-->
+    <header class="w-full h-[420px] text-white bg-home">
+      <div class="w-full h-full flex flex-col justify-center items-center">
+        <img
+          src="./assets/logo.png"
+          alt="Logo DinDin"
+          class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"
+        />
+        <h1 class="text-3x1 mt4 mb-2 font-bold">Dindin Gourmet Sensação</h1>
+
+        <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
+          <span class="text-white font-medium">Seg á Sex - 12:00 as 18:00</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- FIM DO HEADER-->
+
+    <!-- INICIO MENU -->
+    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
+      Conheça nosso menu
+    </h2>
+    <div id="menu">
+      <main
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16"
+      >
+        <!-- INICIO PRODUTOS -->
+        <div class="flex gap-2">
+          <img
+            src="./assets/maracuja.png"
+            alt="Dindin Brigadeiro"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+          />
+
+          <div>
+            <p class="font-bold">Dindin de Maracujá</p>
+            <p class="text-sm">
+              Dindin de Maracujá refrescante e delicioso, feito com a fruta
+              natural para trazer um sabor tropical ao seu dia!
+            </p>
+
+            <div class="flex items-center gap-2 justify-between mt-3">
+              <p class="font-bold text-lg">R$ 10,00</p>
+              <button
+                class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                data-name="Dindin de Maracujá"
+                data-price="10,00"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- FIM PRODUTOS -->
+
+        <!-- INICIO PRODUTOS -->
+        <div class="flex gap-2">
+          <img
+            src="./assets/ovomaltine.png"
+            alt="Dindin Brigadeiro"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+          />
+
+          <div>
+            <p class="font-bold">Dindin de Ovomaltine</p>
+            <p class="text-sm">
+              Um clássico irresistível! Feito com Ovomaltine e um toque
+              especial, esse dindin é perfeito para quem ama sabores intensos e
+              cremosos.
+            </p>
+
+            <div class="flex items-center gap-2 justify-between mt-3">
+              <p class="font-bold text-lg">R$ 10,00</p>
+              <button
+                class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                data-name="Dindin de Ovomaltine"
+                data-price="10,00"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- FIM PRODUTOS -->
+
+        <!-- INICIO PRODUTOS -->
+        <div class="flex gap-2">
+          <img
+            src="./assets/maracuja.png"
+            alt="Dindin Brigadeiro"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+          />
+
+          <div>
+            <p class="font-bold">Dindin de Maracujá com Nutella</p>
+            <p class="text-sm">
+              Uma combinação dos sonhos! O frescor do maracujá com a cremosidade
+              e o sabor marcante da Nutella fazem deste dindin uma explosão de
+              sabor.
+            </p>
+
+            <div class="flex items-center gap-2 justify-between mt-3">
+              <p class="font-bold text-lg">R$ 10,00</p>
+              <button
+                class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                data-name="Dindin de Maracujá com Nutella"
+                data-price="10,00"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- FIM PRODUTOS -->
+
+        <!-- INICIO PRODUTOS -->
+        <div class="flex gap-2">
+          <img
+            src="./assets/morango.png"
+            alt="Dindin Brigadeiro"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+          />
+
+          <div>
+            <p class="font-bold">Dindin de Morango</p>
+            <p class="text-sm">
+              Sabor doce e frutado, feito com morangos fresquinhos para garantir
+              um gostinho natural e delicioso em cada mordida.
+            </p>
+
+            <div class="flex items-center gap-2 justify-between mt-3">
+              <p class="font-bold text-lg">R$ 10,00</p>
+              <button
+                class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                data-name="Dindin de Morango"
+                data-price="10,00"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- FIM PRODUTOS -->
+
+        <!-- INICIO PRODUTOS -->
+        <div class="flex gap-2">
+          <img
+            src="./assets/morangonutella.png"
+            alt="Dindin Brigadeiro"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+          />
+
+          <div>
+            <p class="font-bold">Dindin de Morango com Nutella</p>
+            <p class="text-sm">
+              Adoce o seu dia com a união perfeita do sabor natural do morango e
+              a cremosidade irresistível da Nutella.
+            </p>
+
+            <div class="flex items-center gap-2 justify-between mt-3">
+              <p class="font-bold text-lg">R$ 10,00</p>
+              <button
+                class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                data-name="Dindin de Morango com Nutella"
+                data-price="10,00"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- FIM PRODUTOS -->
+
+        <!-- INICIO PRODUTOS -->
+        <div class="flex gap-2">
+          <img
+            src="./assets/ninhonutella.png"
+            alt="Dindin Brigadeiro"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+          />
+
+          <div>
+            <p class="font-bold">Dindin de Ninho com Nutella</p>
+            <p class="text-sm">
+              Adoce o seu dia com a união perfeita do sabor natural do morango e
+              a cremosidade irresistível da Nutella.
+            </p>
+
+            <div class="flex items-center gap-2 justify-between mt-3">
+              <p class="font-bold text-lg">R$ 10,00</p>
+              <button
+                class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                data-name="Dindin de Ninho com Nutella"
+                data-price="10,00"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- FIM PRODUTOS -->
+
+        <!-- FIM MENU -->
+      </main>
+    </div>
+    <!-- MODAL CART -->
+    <div
+      class="bg-black/60 w-full h-full fixed top-0 left-0 z-9[99] items-center justify-center hidden"
+      id="cart-modal"
+    >
+      <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+        <h2 class="text-center font-bold text-2xl mb-2">Meu Carrinho</h2>
+
+        <div id="cart-items" class="justify-between mb-2 flex-col"></div>
+
+        <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
+
+        <p class="font-bold mt-4">Endereço de Entrega:</p>
+
+        <input
+          type="text"
+          placeholder="Digite seu endereço completo"
+          id="address"
+          class="w-full border-2 p-1 rounded my-1"
+        />
+        <p class="text-red-500 hidden" id="address-warn">
+          Digite seu endereço completo!
+        </p>
+        <div class="payment-options">
+          <label>Escolha a forma de pagamento:</label>
+          <div>
+            <input type="radio" id="pix" name="payment-method" value="pix" />
+            <label for="pix">Pix</label>
+          </div>
+
+          <input
+            type="radio"
+            name="payment-method"
+            value="dinheiro"
+            id="dinheiro"
+          />
+          <label for="dinheiro">Dinheiro</label>
+
+          <div id="change-container" class="hidden mt-4">
+            <label
+              for="change-input"
+              class="block text-sm font-medium text-gray-700"
+            >
+              Troco para quanto?
+            </label>
+
+            <input
+              type="number"
+              id="change-input"
+              class="border-2 p-1 mt-1 block w-full rounded my-1 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+              placeholder="Digite o valor"
+            />
+          </div>
+
+          <div>
+            <input
+              type="radio"
+              id="credit-card"
+              name="payment-method"
+              value="Cartão de Crédito"
+            />
+            <label for="credit-card">Cartão de Crédito</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              id="debit-card"
+              name="payment-method"
+              value="Cartão de Débito"
+            />
+            <label for="debit-card">Cartão de Débito</label>
+          </div>
+        </div>
+        <div class="flex items-center justify-between mt-5 w-full">
+          <button id="close-modal-btn">Fechar</button>
+          <button
+            id="checkout-btn"
+            class="bg-green-500 text-white px-4 py-1 rounded"
+          >
+            Finalizar pedido
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- FIM MODAL CART -->
+
+    <!-- BUTTON CARD FOOTER -->
+    <footer
+      class="w-full bg-red-900 py-3 fixed bottom-0 z-40 flex items-center justify-center"
+    >
+      <button
+        class="flex items-center gap-2 text-white font-bold"
+        id="cart-btn"
+      >
+        (<span id="cart-count">0</span>) Veja seu carrinho
+        <i class="fa fa-cart-plus text-lg text-white"></i>
+      </button>
+    </footer>
+
+    <!-- FIM BUTTON CARD FOOTER -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
