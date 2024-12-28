@@ -768,8 +768,13 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-purple-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(168 85 247 / var(--tw-bg-opacity, 1));
+}
+
 .bg-home {
-  background-image: url('/assets/bg2.png');
+  background-image: url('/assets/bg5.png');
 }
 
 .p-1 {
