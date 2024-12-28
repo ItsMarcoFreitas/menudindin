@@ -1,8 +1,6 @@
-🍧
-DinDin Gourmet Sensação é um projeto de marketplace especializado na venda de dindins (sacolé, geladinho) gourmet. O site foi desenvolvido para oferecer uma experiência intuitiva e eficiente, permitindo que os usuários visualizem o menu, adicionem produtos ao carrinho e finalizem seus pedidos diretamente pelo WhatsApp.
+🍧 DinDin Gourmet Sensação é um projeto de marketplace especializado na venda de dindins (sacolé, geladinho) gourmet. O site foi desenvolvido para oferecer uma experiência intuitiva e eficiente, permitindo que os usuários visualizem o menu, adicionem produtos ao carrinho e finalizem seus pedidos diretamente pelo WhatsApp.
 
-🌟 Funcionalidades
-Exibição de Produtos: Um menu organizado com imagens, descrições e preços dos produtos.
+🌟 Funcionalidades Exibição de Produtos: Um menu organizado com imagens, descrições e preços dos produtos.
 
 Carrinho de Compras: Modal interativo para adicionar, visualizar e remover produtos.
 
@@ -14,8 +12,7 @@ Métodos de Pagamento: Opções de pagamento via Pix, dinheiro, cartão de créd
 
 Verificação de Horário: Indica os horários de funcionamento da loja diretamente no cabeçalho do site.
 
-🚀 Tecnologias Utilizadas
-Frontend:
+🚀 Tecnologias Utilizadas Frontend:
 
 HTML5, CSS3, TailwindCSS
 
@@ -29,23 +26,10 @@ Toastify.js para notificações interativas
 
 Backend: Não utilizado, integração feita diretamente com WhatsApp.
 
-
-📦 Estrutura do Projeto
-HTML: Estrutura do site contendo o cabeçalho, menu de produtos, modal do carrinho e rodapé.
+📦 Estrutura do Projeto HTML: Estrutura do site contendo o cabeçalho, menu de produtos, modal do carrinho e rodapé.
 
 CSS: Estilização do site utilizando TailwindCSS e estilos adicionais para animações e responsividade.
 
 JavaScript: Controle de interação com o carrinho, validações de dados e integração com o WhatsApp.
 
-💡 Como Usar
-Clone este repositório:
-
-bash
-Copiar código
-git clone https://github.com/seu-usuario/dindin-gourmet-sensacao.git  
-Abra o arquivo index.html em qualquer navegador.
-
 Explore o menu, adicione produtos ao carrinho, e finalize seu pedido!
-
-
-
