@@ -166,9 +166,9 @@ checkOutBtn.addEventListener("click", function () {
       text: "Ops, estamos fechados no momento",
       duration: 3000,
       close: true,
-      gravity: "top", // `top` or `bottom`
-      position: "right", // `left`, `center` or `right`
-      stopOnFocus: true, // Prevents dismissing of toast on hover
+      gravity: "top",
+      position: "right",
+      stopOnFocus: true,
       style: {
         background: "#ef4444",
       },
@@ -235,7 +235,7 @@ checkOutBtn.addEventListener("click", function () {
       changeFor ? `\n\n${changeFor}` : ""
     }`
   );
-  const phone = "+5583981033326"; 
+  const phone = "+5583981033326";
 
   // Enviar o pedido via WhatsApp
   window.open(`https://wa.me/${phone}?text=${message}`, "_blank");
