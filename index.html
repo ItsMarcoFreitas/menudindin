@@ -278,13 +278,16 @@
     </div>
     <!-- MODAL CART -->
     <div
-      class="bg-black/60 w-full h-full fixed top-0 left-0 z-9[99] items-center justify-center hidden"
+      class="bg-black/60 w-full h-full fixed top-0 left-0 z-10 items-center justify-center hidden"
       id="cart-modal"
     >
       <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
         <h2 class="text-center font-bold text-2xl mb-2">Meu Carrinho</h2>
 
-        <div id="cart-items" class="justify-between mb-2 flex-col"></div>
+        <div
+          id="cart-items"
+          class="flex flex-col space-y-3 overflow-y-auto max-h-60"
+        ></div>
 
         <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
 
@@ -302,6 +305,7 @@
         <p class="text-red-500 hidden" id="address-warn">
           Digite seu endereço completo!
         </p>
+
         <div class="payment-options">
           <label>Escolha a forma de pagamento:</label>
           <div>
@@ -344,6 +348,7 @@
         </div>
       </div>
     </div>
+
     <!-- FIM MODAL CART -->
 
     <!-- BUTTON CARD FOOTER -->
